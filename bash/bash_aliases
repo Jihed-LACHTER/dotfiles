@@ -1,0 +1,15 @@
+# --- Git Aliases ---
+alias gs='git status'
+alias gp='git pull'
+alias gc='git commit'
+
+# --- List Aliases ---
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# --- Custom Functions ---
+# Find a directory by name
+find-dir() { 
+    find ~ -name "$1" -type d 
+}
